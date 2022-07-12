@@ -643,6 +643,7 @@ template {
 }
 
 .boletos {
+  background-color: #4CB8B3;
   padding: 3rem 0;
 }
 .boletos h3 {
@@ -664,7 +665,7 @@ template {
   text-align: center;
   color: #FFFFFF;
   font-size: 3rem;
-  margin: 1.5rem 0 4rem 0;
+  margin: 2rem 0;
 }
 
 .pase-header {
@@ -683,4 +684,27 @@ template {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.pase-body li {
+  padding: 1rem;
+  background: #FFFFFF;
+}
+
+.pase-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #FEF46D;
+  font-weight: 600;
+}
+
+.footer {
+  background: #F53756;
+}
+.footer h2 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  padding: 1.5rem;
+  color: #FFFFFF;
+  font-weight: 500;
 }

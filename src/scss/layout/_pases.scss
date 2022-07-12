@@ -3,6 +3,7 @@
 
 
 .boletos{
+    background-color: v.$verde;
     padding: 3rem 0;
 
     h3{
@@ -26,7 +27,7 @@
     text-align: center;
     color: v.$blanco;
     font-size: 3rem;
-    margin: 1.5rem 0 4rem 0;
+    margin: 2rem 0;
     
    
 }
@@ -36,6 +37,7 @@
     margin-top: 2rem;
     padding: 0.5rem;
     background-color: v.$rosa;
+
     p{
         color: v.$blanco;
         text-transform: uppercase;
@@ -46,5 +48,38 @@
 .pase-body{
     ul{
         @include m.resetear-lista;
+        
     }
+
+    li{
+        padding: 1rem;
+        background: v.$blanco;
+    }
+}
+
+.pase-footer{
+    text-align: center;
+    padding: 1.5rem;
+    background: v.$amarillo;
+    font-weight: 600;
+
+
+}
+
+
+.footer{
+    background: v.$rosa;
+
+    h2{
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+        padding: 1.5rem;
+        color: v.$blanco;
+        font-weight: 500;
+
+
+
+    }
+
 }
